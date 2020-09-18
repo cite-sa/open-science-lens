@@ -13,10 +13,10 @@ The OSL API provides the backbone functionality of the proxy services that Open 
 * Accelerate access to data through extensive caching
 * Transform and aggregate relevant information from possibly multiple backend calls
 
-## [Open Science Lens Web Application (OSL WebApp)](./docs/osl-webapp.md  "OSL API"))
+## [Open Science Lens Web Application (OSL WebApp)](./docs/osl-webapp.md  "OSL API")
 The OSL WebApp provides administrative functionality to configure and monitor the operation of the Open Science Lens components as well as the ability to register content providers that want to further enhance their data listings with Open Science information through OpenAIRE. Additionally, the OSL WebApp is the registered entry point within the OpenAIRE Identity Provider to allow for user federation.
 
-## [Open Science Lens Data Store (OSL DataStore)](./docs/osl-datastore.md  "OSL DataStore"))
+## [Open Science Lens Data Store (OSL DataStore)](./docs/osl-datastore.md  "OSL DataStore")
 The OSL DataStore is the place where data reside to facilitate the proper and performant operation of all Open Science Lens components. The data that are maintained there can be separated in two major categories with respect to their scope and usage:
 * Operational – The data that are required by the Open Science Lens components to complete the functional aspects of their operation. This includes information such as the following non excluding list:
   * End user identifiers
@@ -26,8 +26,8 @@ The OSL DataStore is the place where data reside to facilitate the proper and pe
 * Transient – The data which the Open Science Lens solution has aggregated through underpinning services and for which it is not the primary source of reference. This data is mostly used as temporal buffers in various caching schemes that can be employed.
 * Logs – The data that are tracked for troubleshooting, auditing and accounting purposes. Various levels of detail can be employed depending on the scope of the log entries and some information may require different handling with respect to data protection policies employed
 
-## [Open Science Lens Browser Plugin (OSL Plugin)](./docs/osl-plugin.md  "OSL Plugin"))
+## [Open Science Lens Browser Plugin (OSL Plugin)](./docs/osl-plugin.md  "OSL Plugin")
 The OSL Plugin is the browser component developed and which end users are able to download and deploy in their browser to take advantage of the offered functionality and direct insight into the OpenAIRE Research Graph data. Browser Plugin development is highly relevant to the hosting browser and no single solution can be offered to be applied across all browsers. The Plugin is responsible to collect the points of interest from the content that the user is browsing, collect relevant information from the OpenAIRE Research Graph through the OSL API and present it in a coherent and concise fashion to the end user, allowing further exploration.
 
-## [Open Science Lens Science Page Enhancer (OSL Science Page Enhancer)](./docs/osl-enhancer.md  "OSL Science Page Enhancer"))
+## [Open Science Lens Science Page Enhancer (OSL Science Page Enhancer)](./docs/osl-enhancer.md  "OSL Science Page Enhancer")
 The OSL Science Page Enhancer is the lightweight JavaScript library widget that Science Page Providers can use and embed within their applications to take direct advantage of the OpenAIRE Research Graph and enhance the content they provide to their users. In addition to scanning the content of the page in which the widget is included, the point of interest discovery ability of the widget can be enhanced with explicit markup that the providers can include in their pages.
