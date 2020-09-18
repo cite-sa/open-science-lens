@@ -263,7 +263,7 @@ The list of attributes available for explicit widget instance overrides, are the
   * settings-other-showTool
 
 
-## Theaming
+## Theming
 
 To facilitate smoother visual integration of the OSL Page Enhancer to the provider's pages, the widget supports a theming mechanism. Currently, preconfigured themes are available to allow the selection of a visual look and feel that is more appropriate to the integrating page.
 
@@ -273,7 +273,7 @@ This option is available through the respective configuration value as presented
 
 This section covers the integration steps required for a science page provider to make use of the OSL Science Page Enhancer widget within his content pages. These steps assume that the required registration step through the [Open Science Lens Web Application (OSL WebApp)](./docs/osl-webapp.md  "OSL WebApp") has been completed and the API Key has been retrieved.
 
-# Importing the widget to your page
+### Importing the widget to your page
 
 To import the widget in a page, use the following snippet:
 
@@ -282,7 +282,7 @@ To import the widget in a page, use the following snippet:
 add snippet here
 ```
 
-# Using the widget
+### Using the widget
 
 After the widget has been imported, you can place the widget within your page by adding in the dollowing tag in your html body:
 
@@ -293,7 +293,7 @@ add snippet here
 
 At this point, you can also use any of the respective configuration override attributes you may need to further customize the behavior and visual appearence of the OSL Science Page Enhancer, as presented in the previous sections.
 
-# Additonal Integration
+### Additonal Integration
 
 Another possibility offered, should the content providers choose to customize their rendering process to allow further integration with the OSL Science Page Enhancer, is to add additional markup in their pages that direct the OSL Science Page Enhancer to bind visual badges to selected page areas.
 
