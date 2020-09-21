@@ -156,6 +156,8 @@ Depending on the OSL Plugin configuration, the scanning process will go through 
 * Text Nodes
 * Anchor href links
 
+Initial integration to scan also [Schema.org](https://schema.org/ "schema.org"), json-ld script tags has been evaluated. Evaluation of the process in most available science pages indicated that most of the DOI information available through the schema.org script tags were already discoverable through direct DOM scanning, while at the same time, the DOI identifiers were not necessarily handled consistently within the expected identifier fields. For this reason they were not included in the final DOI scanning process, although the decision may be re-evaluated.
+
 The respective nodes are scanned using the following regular expressions to identify DOIs within the text:
 ```
 /\b(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?!["&\'<>])\S)+)\b/g
