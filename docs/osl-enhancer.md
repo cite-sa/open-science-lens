@@ -26,7 +26,7 @@ Keep reading to see more details on how to integrate the OSL Science Page Enhanc
 
 The way the OSL Science Page Enhancer operates, it is meant to be cetnrally configured to meet the provider's requirements and then easily integrated without requiring re-configuration across all the provider's content pages. Still, it is expected that some of the provider's pages may requires different handling to facilitate more streamlined blending of the widget facilities or even extended integration with additional configured options.
 
-To support the needed versatility, the OSL Science Page Enhancer supports the following configuration stack. Each level of the stack ismerged with the lower level stack to allow for incremental and progressive changes in configration (higher configuration levels trump lower configuration levels):
+To support the needed versatility, the OSL Science Page Enhancer supports the following configuration stack. Each level of the stack is merged with the lower level stack to allow for incremental and progressive changes in configration (higher configuration levels trump lower configuration levels):
 
 1. OSL Science Page Enhancer defaults - The OSL widget comes with a set of defaults that define a base functionality. These defaults can be used for integration without any additional configuration
 2. OSL WebApp registration configuration - At the time of registering the science page content provider at the OSL WebApp, the administrator can define a set of options. These options can be downloaded and hosted along the science page environment for direct access
@@ -293,6 +293,31 @@ add snippet here
 
 At this point, you can also use any of the respective configuration override attributes you may need to further customize the behavior and visual appearence of the OSL Science Page Enhancer, as presented in the previous sections.
 
+### Scanning
+
+Depending on the OSL Plugin configuration, the scanning process will go through the browser page content, navigating through the page DOM to identify points of interest, highlight them and make them available for further information retrieval. The following sections of the DOM tree are scanned:
+* Text Nodes
+* Anchor href links
+
+The respective nodes are scanned using the following regular expressions to identify DOIs within the text:
+```
+/\b(10[.][0-9]{4,}(?:[.][0-9]+)*\/(?:(?!["&\'<>])\S)+)\b/g
+```
+
+The regular expression has been validated, but given the free form of some DOIs, it is possible to extend the matching process with additional regular expressions for better results.
+
+#### Auto
+
+Under this scanning configuration, the scanning component will periodically scan the page DOM to identify points of interest. This configuration aims to achieve a technology agnostic approach to handle in-page DOM updates, being as less intrusive as possible to the framework used from the page provider to manipulate and handle the DOM.
+
+#### Manual
+
+Under this scanning configuration, the scanning component will only traverse the DOM after explicit user interaction. It is expected to be primarily an evaluation stage facility to be discontinued further down the component lifetime
+
+#### OnPageLoad
+
+Under this scanning configuration, the scanning component will only traverse the DOM on initial page load. This is mostly suiting for non-SPA pages as it will aleviate also unessecary utilization of browser resources.
+
 ### Additonal Integration
 
 Another possibility offered, should the content providers choose to customize their rendering process to allow further integration with the OSL Science Page Enhancer, is to add additional markup in their pages that direct the OSL Science Page Enhancer to bind visual badges to selected page areas.
@@ -321,58 +346,60 @@ To control the placement of visual anchor that the user can click on to retrieve
 
 The available qualifiers for term based lookup through this functionality are the following:
 
+* generic
+  * osl-identifier:doi
 * datasets
-  * osl-dataset-doi
-  * osl-dataset-openaireDatasetID
-  * osl-dataset-title
-  * osl-dataset-author
-  * osl-dataset-openaireProviderID
-  * osl-dataset-openaireProjectID
-  * osl-dataset-projectID
-  * osl-dataset-country
-  * osl-dataset-funder
-  * osl-dataset-fundingStream
+  * osl-dataset:doi
+  * osl-dataset:openaireDatasetID
+  * osl-dataset:title
+  * osl-dataset:author
+  * osl-dataset:openaireProviderID
+  * osl-dataset:openaireProjectID
+  * osl-dataset:projectID
+  * osl-dataset:country
+  * osl-dataset:funder
+  * osl-dataset:fundingStream
 * publications
-  * osl-publication-doi
-  * osl-publication-openairePublicationID
-  * osl-publication-title
-  * osl-publication-author
-  * osl-publication-openaireProviderID
-  * osl-publication-openaireProjectID
-  * osl-publication-projectID
-  * osl-publication-country
-  * osl-publication-funder
-  * osl-publication-fundingStream
+  * osl-publication:doi
+  * osl-publication:openairePublicationID
+  * osl-publication:title
+  * osl-publication:author
+  * osl-publication:openaireProviderID
+  * osl-publication:openaireProjectID
+  * osl-publication:projectID
+  * osl-publication:country
+  * osl-publication:funder
+  * osl-publication:fundingStream
 * software
-  * osl-software-doi
-  * osl-software-openaireSoftwareID
-  * osl-software-title
-  * osl-software-author
-  * osl-software-openaireProviderID
-  * osl-software-openaireProjectID
-  * osl-software-projectID
-  * osl-software-country
-  * osl-software-funder
-  * osl-software-fundingStream
+  * osl-software:doi
+  * osl-software:openaireSoftwareID
+  * osl-software:title
+  * osl-software:author
+  * osl-software:openaireProviderID
+  * osl-software:openaireProjectID
+  * osl-software:projectID
+  * osl-software:country
+  * osl-software:funder
+  * osl-software:fundingStream
 * project
-  * osl-project-doi
-  * osl-project-grantID
-  * osl-project-openairePublicationID
-  * osl-project-name
-  * osl-project-acronym
-  * osl-project-callID
-  * osl-project-participantCountries
-  * osl-project-participantAcronyms
-  * osl-project-funder
-  * osl-project-fundingStream
+  * osl-project:doi
+  * osl-project:grantID
+  * osl-project:openairePublicationID
+  * osl-project:name
+  * osl-project:acronym
+  * osl-project:callID
+  * osl-project:participantCountries
+  * osl-project:participantAcronyms
+  * osl-project:funder
+  * osl-project:fundingStream
 * other
-  * osl-other-doi
-  * osl-other-openaireOtherID
-  * osl-other-title
-  * osl-other-author
-  * osl-other-openaireProviderID
-  * osl-other-openaireProjectID
-  * osl-other-projectID
-  * osl-other-country
-  * osl-other-funder
-  * osl-other-fundingStream
+  * osl-other:doi
+  * osl-other:openaireOtherID
+  * osl-other:title
+  * osl-other:author
+  * osl-other:openaireProviderID
+  * osl-other:openaireProjectID
+  * osl-other:projectID
+  * osl-other:country
+  * osl-other:funder
+  * osl-other:fundingStream
