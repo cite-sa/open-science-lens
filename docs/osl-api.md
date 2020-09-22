@@ -338,11 +338,106 @@ The following snippets show examples of the respons model retrieved through the 
 
 ## Caching
 
+To facilitate quick response times and to aleviate some of the request load from the bakcing OpenAIRE APIs, the OSL API employes a caching scheme that enables it to respond to consecutive requests for the same response without contacting the OpenAIRE APIs.
+
+The kind of data that are being served are not critical or oftenly updated, so this allows for a policy that defines high TTL values and not aggresive cache invalidation techniques. The Cache is orthogonal to the main functionality of the OSL API, and even if there are issues contacting the cache provider, or it is not configured, the API can still serve  incoming requests, withouyt making use of the cahcing functionaloity.
+
+The OSL API can be configured to use a [Redis](https://redis.io/ "Redis") data store. To control the caching policies, the following configuration is available for the API:
+
+```yml
+cache:
+    host : <HOST>
+    port : <PORT>
+    enable-total-cache: true/false
+    types:
+        doi:
+          enable-cache: true/false
+          time-to-live: <TTL IN SECONDS>
+        keywords:
+          enable-cache-full: true/false
+          time-to-live-full: <TTL IN SECONDS>
+          enable-cache-split: true/false
+        qualified-term:
+          enable-cache-full: true
+          time-to-live-full: <TTL IN SECONDS>
+          enable-cache-split: true/false
+```
+One can completly disable or enable the cache functionality, and then per individual type of lookup, further control the behavior. For *keywords* and *term* based lookups, it is possible to control if the full list of results will be cached based on the searched terms, and if the the result list can be split and cached individually based on their DOI identifiers. In this case, the *doi* based configuration will control if and under which TTL these individual results will be cached.
+
+The cache keys generated depend on the kind of result being cached:
+
+* DOI
+```
+doi:<THE DOI>
+```
+e.g.
+```
+doi:10.5281/zenodo.194087
+```
+* keywoards
+```
+keywords:<COMMA SEPARATED KEYWOARD>
+```
+e.g.
+```
+ keywords:analysis,europe,life
+```
+* qualified terms
+```
+type:<COMMA SEPARATED TYPES>#kind:<COMMA SEPARATED QUALIFYING PROPERTIES>#value:<COMMA SEPARATED VALUES>
+```
+e.g.
+```
+type:publications#kind:title#value:combination,of,peptide,radionuclide,receptor,therapy
+```
+
 ## Logging
 
-The OSL API uses logging to track troubleshooting events and also to 
+The OSL API uses logging to track troubleshooting events. The Logback library is used for the purpose and the respective logger is configured through an external configuration file to control the logger output, message format, log file retention policy etc.
+
+In addition to troubleshooting logs, audit logs are also maintained to track high level actions performed through the OSL API. These are also tracked through the same logging mechanism.
 
 ## Data Store
+
+To store operational data that primarily facilitate the functionality offered through the [OSL Web App](./osl-webapp.md  "OSL WebApp") and backed by the OSL API, a persistent data store is used. This data store is based on [MongoDB](https://www.mongodb.com/ "MongoDB").
+
+Two collections are maintained:
+
+The DataProvider collection maintains documents that register the Science Page Providers that are using the [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") widget. An example of such a document is the following:
+
+```json
+{
+    "_id": {
+        "$oid": "<DOCUMENT ID>"
+    },
+    "domain": "<THE DOMAIN REGISTERED>",
+    "status": <DOMAIN REGISTRATION STATUS>,
+    "userId": "<SUBJECT ID ADMINISTERING THE DOMAIN>",
+    "apiKey": "<GENERATED API KEY FOR THE DOMAIN>",
+    "email": "<CONTACT EMAIL>"
+}
+```
+
+The UserProfile collection maintains focuments that store setting configurations used by the [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") and [OSL Plugin](./osl-plugin.md  "OSL Plugin") to store centrally configuration settings that cover their behavor and result visualization. En example of such a document is the following:
+
+```json
+{
+    "_id": {
+        "$oid": "<DOCUMENT ID>"
+    },
+    "clientId": "<CLIENT / PLUGIN INSTALLATION ID>",
+    "userId": "<SUBJECT ID USING THE PLUGIN>",
+    "apiKey": "<GENERATED API KEY FOR THE WIDGET>",
+    "settings": {
+		//widget / plugin specific settings
+		//...
+        "showDateOfAcceptance": "undefined",
+        "showPublisher": "undefined",
+		"showSource": "undefined"
+		//...
+    }
+}
+```
 
 ## Underpinning OpenAIRE API
 
