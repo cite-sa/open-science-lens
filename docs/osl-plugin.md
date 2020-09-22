@@ -8,6 +8,8 @@ The OSL Plugin available is targeting the Chrome browser although it is build in
 
 ***TBD***
 
+(components used and respective licenses)
+
 ## Distribution
 
 The OSL Plugin is packaged and distributed as a Chrome extension bundle that can easily be loaded through the respective Chrome settings tab. This method of distribution is primarily targeting the evaluation stage of the plugin lifecycle. Once deemed satisfactory, it can be registered with the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions "Chrome Web Store").

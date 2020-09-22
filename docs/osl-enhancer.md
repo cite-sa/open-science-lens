@@ -6,6 +6,8 @@ The OSL Science Page Enhancer is the lightweight JavaScript library widget that 
 
 ***TBD***
 
+(components used and respective licenses)
+
 ## Registration
 
 In order for the OSL Science Page Enhancer to be able to connect and retrieve information from the OSL API, it needs to provide evidence for its identity on each of the invocations with a valid API Key. This allows binding the widget invocations with the specific domain they API Key is generated for.
