@@ -40,7 +40,7 @@ An example configuration document generated during the OSL WebApp registration p
 {
 	"general": {
 		"language": "en",
-		"scanning": "manual", // manual, auto, onPageLoad
+		"scanning": "manual", // manual, auto, onPageLoad, none
 		"showBadge": "true",
 		"showMarkupBadge": "true",
 		"position": "rightDown", // rightDown, rightUp, leftDown, leftUp
@@ -321,6 +321,10 @@ Under this scanning configuration, the scanning component will only traverse the
 #### OnPageLoad
 
 Under this scanning configuration, the scanning component will only traverse the DOM on initial page load. This is mostly suiting for non-SPA pages as it will aleviate also unessecary utilization of browser resources.
+
+#### none
+
+Under this scanning configuration, the scanning component will traverse the DOM only on initial load but will not try to automatically detect DOIs. It will only look for explicit markup as described in later sections.
 
 ### Additonal Integration
 
