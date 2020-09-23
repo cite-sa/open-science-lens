@@ -281,16 +281,16 @@ To import the widget in a page, use the following snippet:
 
 ***TBD***
 ```
-add snippet here
+<script type="text/javascript" src="theWidgetLibrary.js"></script>
 ```
 
 ### Using the widget
 
-After the widget has been imported, you can place the widget within your page by adding in the dollowing tag in your html body:
+After the widget has been imported, you place the widget within your page by adding the following tag at the end of your html body:
 
 ***TBD***
 ```
-add snippet here
+<osl-widget></osl-widget>
 ```
 
 At this point, you can also use any of the respective configuration override attributes you may need to further customize the behavior and visual appearence of the OSL Science Page Enhancer, as presented in the previous sections.
