@@ -16,6 +16,13 @@ The OSL Plugin is packaged and distributed as a Chrome extension bundle that can
 
 The packaged plugin can be retrieved from the following location: ***TBD***
 
+Open the Extension Management page by navigating to chrome://extensions.
+The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
+Enable Developer Mode by clicking the toggle switch next to Developer mode.
+Click the LOAD UNPACKED button and select the extension directory.
+(Warning: you have to pick the extension folder that includes the manifest.json file)
+(https://developer.chrome.com/extensions/getstarted#manifest)
+
 ## Authentication
 
 The OSL Plugin aims to assist the web browsing user, while navigating the web, to retrieve available information, if any, from the OpenAIRE archives. Access to the OpenAIRE resources and indices are not currently accounted to restrict user information retreival through the provided [Public APIs](https://api.openaire.eu/api.html "OpenAIRE Public API") (usage throttling policies aside). Additionally, it is not required for a user to be registered with OpenAIRE in order to browse and explore the content offered through the respective services.
