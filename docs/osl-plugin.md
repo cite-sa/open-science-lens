@@ -16,7 +16,7 @@ The OSL Plugin is packaged and distributed as a Chrome extension bundle that can
 
 The packaged plugin can be retrieved from the following location: ***TBD***
 
-Open the Extension Management page by navigating to chrome://extensions. The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions. Enable Developer Mode by clicking the toggle switch next to Developer mode. Click the LOAD UNPACKED button and select the extension directory. (Warning: you have to pick the extension folder that includes the manifest.json file)
+After downloading the .zip file, extract its contents. Place the plugin folder in your desired destination. Open the Extension Management page by navigating to chrome://extensions. The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions. Enable Developer Mode by clicking the toggle switch next to Developer mode. Click the LOAD UNPACKED button and select the plugin folder. (Warning: you have to pick the extension folder that includes the manifest.json file)
 
 (https://developer.chrome.com/extensions/getstarted#manifest)
 
