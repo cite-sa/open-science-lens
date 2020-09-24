@@ -21,7 +21,7 @@ Currently, for integration purposes, a development instance of the Keycloak OIDC
 ### Authorization
 
 With respect to authorization, the following cases can be identified:
-* Adminitrative access
+* Administrative access
 * Authenticated user access
 
 For the **administrative user access**, it is expected that OSL Administrator users will be able to perform actions that require elevated rights. Such actions include the validation and activation of Science Page providers that want to use the [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") widget as described in the respective section. The respective Authorization section of the [OSL API](./docs/osl-api.md "OSL API") also describes the expected access token and required claims. In that section, the required authorization and how it handled for the supporting API endpoints is described.
