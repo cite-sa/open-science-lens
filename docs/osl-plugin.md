@@ -14,7 +14,7 @@ The OSL Plugin available is targeting the Chrome browser although it is build in
 
 The OSL Plugin is packaged and distributed as a Chrome extension bundle that can easily be loaded through the respective Chrome settings tab. This method of distribution is primarily targeting the evaluation stage of the plugin lifecycle. Once deemed satisfactory, it can be registered with the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions "Chrome Web Store").
 
-The packaged plugin can be retrieved from the following location: ***TBD***
+The packaged plugin can be retrieved from the following location: <https://github.com/cite-sa/open-science-lens/releases/> by selecting the desired released component version. 
 
 After downloading the .zip file, extract its contents. Place the plugin folder in your desired destination. Open the Extension Management page by navigating to chrome://extensions. The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions. Enable Developer Mode by clicking the toggle switch next to Developer mode. Click the LOAD UNPACKED button and select the plugin folder. (Warning: you have to pick the extension folder that includes the manifest.json file)
 
