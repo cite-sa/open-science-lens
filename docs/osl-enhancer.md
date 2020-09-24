@@ -20,7 +20,7 @@ Given that access to the underpinning OpenAIRE API used to retrieve the data is 
 
 The OSL Science Page Enhancer is packaged and distributed as a JavaScript library that can easily be integrated with any compatible science page web page. 
 
-The packaged widget can be retrieved from the following location: ***TBD***
+The packaged widget can be retrieved from the following location: <https://github.com/cite-sa/open-science-lens/releases/> by selecting the desired released component version. 
 
 Keep reading to see more details on how to integrate the OSL Science Page Enhancer in your site using the distributed package.
 
