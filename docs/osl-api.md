@@ -80,7 +80,7 @@ The [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") 
 
 ### Endpoints
 
-In this section we list some of endpoints made available through the OSL API. We focus primarily on the endpoints that are serving the [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") and [OSL Plugin](./osl-plugin.md  "OSL Plugin") components, allowing the retrieval of OpenAIRE hosted informatiopn with respect to data lookup and retrieval. The endpoints that are more targeted to the internal workings of the Open Science Lens application and the interactions required for the [OSL Web App](./osl-webapp.md  "OSL WebApp") are not detailed.
+In this section we list some of endpoints made available through the OSL API. We focus primarily on the endpoints that are serving the [OSL Science Page Enhancer](./osl-enhancer.md  "OSL Science Page Enhancer") and [OSL Plugin](./osl-plugin.md  "OSL Plugin") components, allowing the retrieval of OpenAIRE hosted information with respect to data lookup and retrieval. The endpoints that are more targeted to the internal workings of the Open Science Lens application and the interactions required for the [OSL Web App](./osl-webapp.md  "OSL WebApp") are not detailed.
 
 #### DOI Lookup
 
