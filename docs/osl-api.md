@@ -20,7 +20,7 @@ To secure its endpoints, a Bearer Authentication scheme is implemented in the OS
 Authorization: Bearer <ACCESS_TOKEN>
 ```
 
-The access token is expected to be a [JWT[(https://tools.ietf.org/html/rfc7519 "JSON Web Token") token, generated and signed by the configured trusted identity provider.
+The access token is expected to be a [JWT](https://tools.ietf.org/html/rfc7519 "JSON Web Token") token, generated and signed by the configured trusted identity provider.
 
 ### Pseudo Identification
 
