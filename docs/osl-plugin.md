@@ -6,9 +6,7 @@ The OSL Plugin is the browser component developed and which end users are able t
 
 The OSL Plugin available is targeting the Chrome browser although it is build in a generic way to allow for easier migration between different browser APIs.
 
-***TBD***
-
-(components used and respective licenses)
+The OSL Plugin uses Vanilla Javascript and utilises the Chrome.api for all its extension-related features. (https://developer.chrome.com/extensions/api_index)
 
 ## Distribution
 
