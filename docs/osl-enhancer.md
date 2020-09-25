@@ -279,16 +279,16 @@ This section covers the integration steps required for a science page provider t
 
 To import the widget in a page, use the following snippet:
 
-***TBD***
 ```
 <script type="text/javascript" src="theWidgetLibrary.js"></script>
 ```
 
 ### Using the widget
 
-After the widget has been imported, you place the widget within your page by adding the following tag at the end of your html body:
+After the widget has been imported, you place the widget within your page by adding the following tag:
 
-***TBD***
+(Tip: create a ```<div>``` at the end of your ```<body>``` and place the ```<osl-widget>``` tag inside to avoid css ovelapping. If possible place the ```<script>``` inside here too.)
+
 ```
 <osl-widget></osl-widget>
 ```
