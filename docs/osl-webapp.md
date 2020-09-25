@@ -6,31 +6,18 @@ The OSL WebApp provides administrative functionality to configure and monitor th
 
 The OSL WebApp is build as an SPA application using the Angular framework.
 
-
-### Component | name | Version	| License name | Link
-
-ngx-translate/core | 13.0.0	| MIT | License |	https://github.com/ngx-translate/core
-
-ngx-translate/http-loader | 6.0.0	|	MIT License	|	https://github.com/ngx-translate/http-loader
-
-angular-oauth2-oidc | 10.0.3 |	MIT License	https://github.com/manfredsteyer/angular-oauth2-oidc
-
-bootstrap | 4.5.2	 | MIT | License |	https://github.com/twbs/bootstrap
-
-enum | 3.0.4 |	MIT License |	https://github.com/adrai/enum
-
-jquery |	3.5.1 |	MIT License |	https://github.com/jquery/jquery
-
-ng2-search-filter |	0.5.1 |	MIT License |	https://github.com/solodynamo/ng2-search-filter
-
-rxjs |	6.5.4 |	Apache License 2.0 |	https://github.com/reactivex/rxjs
-
-rxjs-observable |	0.0.7 |	MIT License	
-
-tslib |	1.10.0 |	BSD Zero Clause License |	https://github.com/Microsoft/tslib
-
-
-
+| Component name | Version	| License name | Link |
+| ---------------| ---------| ------------ | ---- | 
+| ngx-translate/core | 13.0.0	| MIT | License |	https://github.com/ngx-translate/core |
+| ngx-translate/http-loader | 6.0.0	|	MIT License	|	https://github.com/ngx-translate/http-loader |
+| angular-oauth2-oidc | 10.0.3 |	MIT License |	https://github.com/manfredsteyer/angular-oauth2-oidc |
+| bootstrap | 4.5.2	 | MIT | License |	https://github.com/twbs/bootstrap |
+| enum | 3.0.4 |	MIT License |	https://github.com/adrai/enum |
+| jquery |	3.5.1 |	MIT License |	https://github.com/jquery/jquery |
+| ng2-search-filter |	0.5.1 |	MIT License |	https://github.com/solodynamo/ng2-search-filter |
+| rxjs |	6.5.4 |	Apache License 2.0 |	https://github.com/reactivex/rxjs |
+| rxjs-observable |	0.0.7 |	MIT License	 |  |
+| tslib |	1.10.0 |	BSD Zero Clause License |	https://github.com/Microsoft/tslib |
 
 ## Restricted Access
 
