@@ -6,41 +6,31 @@ The OSL WebApp provides administrative functionality to configure and monitor th
 
 The OSL WebApp is build as an SPA application using the Angular framework.
 
-### Angular
-MIT License
-https://github.com/angular/angular/blob/master/LICENSE
 
-### NGX-Translate
-MIT License
-https://github.com/ngx-translate/core/blob/master/LICENSE
+### Component | name | Version	| License name | Link
 
-### Angular-oauth2-oidc
-MIT License
-https://github.com/manfredsteyer/angular-oauth2-oidc/blob/master/LICENSE
+ngx-translate/core | 13.0.0	| MIT | License |	https://github.com/ngx-translate/core
 
-### Bootstrap
-MIT License
-https://github.com/twbs/bootstrap/blob/main/LICENSE
+ngx-translate/http-loader | 6.0.0	|	MIT License	|	https://github.com/ngx-translate/http-loader
 
-### Enum
-MIT License
-https://github.com/adrai/enum/blob/master/licence
+angular-oauth2-oidc | 10.0.3 |	MIT License	https://github.com/manfredsteyer/angular-oauth2-oidc
 
-### Jquery
-MIT License
-https://github.com/jquery/jquery/blob/master/LICENSE.txt
+bootstrap | 4.5.2	 | MIT | License |	https://github.com/twbs/bootstrap
 
-### Ng2-search-filter
-MIT License
-https://github.com/solodynamo/ng2-search-filter/blob/master/LICENSE
+enum | 3.0.4 |	MIT License |	https://github.com/adrai/enum
 
-### Rxjs
-Apache License 2.0
-https://github.com/ReactiveX/rxjs/blob/master/LICENSE.txt
+jquery |	3.5.1 |	MIT License |	https://github.com/jquery/jquery
 
-### Tslib
-BSD Zero Clause License
-https://github.com/microsoft/tslib/blob/master/LICENSE.txt
+ng2-search-filter |	0.5.1 |	MIT License |	https://github.com/solodynamo/ng2-search-filter
+
+rxjs |	6.5.4 |	Apache License 2.0 |	https://github.com/reactivex/rxjs
+
+rxjs-observable |	0.0.7 |	MIT License	
+
+tslib |	1.10.0 |	BSD Zero Clause License |	https://github.com/Microsoft/tslib
+
+
+
 
 ## Restricted Access
 
