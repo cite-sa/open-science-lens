@@ -4,9 +4,7 @@ The OSL Science Page Enhancer is the lightweight JavaScript library widget that 
 
 ## Technology
 
-***TBD***
-
-(components used and respective licenses)
+The OSL Science Page Enhancer uses Vanilla Javascript throughout its entirety. It also utilises Shadow-Dom to avoid css overlapping.
 
 ## Registration
 
@@ -282,6 +280,9 @@ To import the widget in a page, use the following snippet:
 ```
 <script type="text/javascript" src="theWidgetLibrary.js"></script>
 ```
+
+If you are importing it to an Angular Application you also have to complete the following steps:
+* Add the script to your angular.json file in the projects.projectName.build.scripts list
 
 ### Using the widget
 
