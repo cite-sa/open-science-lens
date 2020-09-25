@@ -282,7 +282,7 @@ To import the widget in a page, use the following snippet:
 ```
 
 If you are importing it to an Angular Application you also have to complete the following steps:
-* Add the script to your angular.json file in the projects.projectName.build.scripts list
+* Add the script to your angular.json file in the projects->"projectName"->build->scripts list
 
 ### Using the widget
 
