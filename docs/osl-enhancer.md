@@ -281,9 +281,6 @@ To import the widget in a page, use the following snippet:
 <script type="text/javascript" src="theWidgetLibrary.js"></script>
 ```
 
-If you are importing it to an Angular Application you also have to complete the following steps:
-* Add the script to your angular.json file in the projects->"projectName"->build->scripts list
-
 ### Using the widget
 
 After the widget has been imported, you place the widget within your page by adding the following tag:
