@@ -33,6 +33,11 @@ JavaBeans(TM) Activation Framework | 1.1 |	CDDL 1.0 |	https://mvnrepository.com/
 | BSON |	4.1.0 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.mongodb/bson |
 | MongoDB Java Driver Core |	4.1.0 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core |
 
+| Data Store | Version | License name | Link |
+| ---------- | ------- | ------------ | ---- |
+| Redis | 6.0.8 | BSD license | https://redis.io/ |
+| MongoDB | 4.2.5 | Server Side Public License (SSPL) | https://www.mongodb.com/ |
+
 ## Authentication
 
 To secure its endpoints, a Bearer Authentication scheme is implemented in the OSL API. Each of the secured endpoints expect to find a relevant header containing the appropriate authorization header:
