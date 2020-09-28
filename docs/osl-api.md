@@ -10,7 +10,28 @@ The OSL API provides the backbone functionality of the proxy services that Open 
 
 The OSP API is build as a Spring Boot Web API application. It exposes its API through appropriate RESTful endpoints, exchanging json format messages. The following sections detail further technologies, endpoints, message models, data stores and additional technical information.
 
-(components used and respective licenses)
+| Programming Language | Version	| License name | Link |
+| ---------------| ---------| ------------ | ---- | 
+| Java | 11.0.3	| OpenJDK |	https://jdk.java.net/11/ |
+
+| Dependency name | Version	| License name | Link |
+| ---------------| ---------| ------------ | ---- | 
+| Spring Boot Starter Parent | 2.2.6.RELEASE	| Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent |
+| Spring Boot Starter Web | 2.2.6.RELEASE |	Apache License 2.0	|	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web |
+| Spring Boot Starter Test | 2.2.6.RELEASE |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test |
+| Spring Boot Configuration Processor |	2.2.7.RELEASE |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-configuration-processor |
+| Spring Boot Starter Validation | 2.3.4.RELEASE |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation |
+| Spring Boot Starter Security |	2.3.4.RELEASE |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security |
+| Spring Data Redis |	2.3.0.RELEASE |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.springframework.data/spring-data-redis |
+| JAXB API | 2.3.0-b170201.1204	 | CDDL 1.1 |	https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api |
+JavaBeans(TM) Activation Framework | 1.1 |	CDDL 1.0 |	https://mvnrepository.com/artifact/javax.activation/activation |
+| JAXB Runtime |	2.3.3 |	EDL 1.0 |	https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime |
+| Jedis |	3.3.0 |	MIT License |	https://mvnrepository.com/artifact/redis.clients/jedis |
+| ModelMapper |	2.3.7 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.modelmapper/modelmapper |
+| Java JWT |	3.10.3 |	MIT License |	https://mvnrepository.com/artifact/com.auth0/java-jwt |
+| MongoDB Driver |	4.1.0 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-sync |
+| BSON |	4.1.0 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.mongodb/bson |
+| MongoDB Java Driver Core |	4.1.0 |	Apache License 2.0 |	https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core |
 
 ## Authentication
 
