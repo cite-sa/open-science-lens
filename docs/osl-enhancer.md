@@ -4,7 +4,7 @@ The OSL Science Page Enhancer is the lightweight JavaScript library widget that 
 
 ## Technology
 
-The OSL Science Page Enhancer uses Vanilla Javascript throughout its entirety. It also utilises Shadow-Dom to avoid css overlapping.
+The OSL Science Page Enhancer uses Vanilla Javascript throughout its entirety. It utilises Shadow-Dom to avoid css overlapping and it also uses Bootstrap icons which are open sourced (MIT).
 
 ## Registration
 
