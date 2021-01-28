@@ -21,7 +21,7 @@ services:
     image: <DOCKER REGISTRY>open-science-lens-api:1.0.0
 
   open-science-lens-web-app:
-    image: <DOCKER REGISTRY>open-science-lens-web-app:1.0.0
+    image: <DOCKER REGISTRY>open-science-lens-webapp:1.0.0
 
   redis:
     image: redis:6.0.8-alpine
