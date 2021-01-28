@@ -7,7 +7,7 @@ Additionally, it allows site owners to easily integrate such information in thei
 Documentation targeting the usage, user manuals and operations overview can be found in the following sections:
 * [Open Science Lens Web Application User Manual (OSL WebApp)](./docs/osl-webapp-user-manual.md  "OSL WebApp User Manual")
 * [Open Science Lens Browser Plugin User Manual (OSL Plugin)](./docs/osl-plugin-user-manual.md  "OSL Browser Plugin User Manual")
-* [Open Science Lens Science Page Enhancer User Manual (OSL Science Page Enhancer)](./docs/osl-enhancer-user-manual.md  "OSL Science Page Enhancer User Manual")
+* [Open Science Lens Science Page Enhancer User Manual (OSL Science Page Enhancer)](./docs/osl-widget-user-manual.md  "OSL Science Page Enhancer User Manual")
 
 An example deployment setup can be found in the following section:
 * [Open Science Lens Deployment Example Setup](./docs/deployment.md  "OSL Deployment Example")
