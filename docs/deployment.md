@@ -42,7 +42,7 @@ services:
       - SERVER_PORT=<PORT>
       - SPRING_PROFILES_ACTIVE=stage
     ports:
-      - "<PORT>:<PORT>"
+      - "<PORT>:8080"
     volumes:
       - ${OSL_VOLUME_ROOT}/config:/config
       - ${OSL_VOLUME_ROOT}/logs:/logs
@@ -53,10 +53,8 @@ services:
   open-science-lens-web-app:
     mem_limit: 512M
     restart: unless-stopped
-    expose:
-      - "<PORT>"
     ports:
-      - "<PORT>:<PORT>"
+      - "<PORT>:8080"
     volumes:
       - ${OSL_VOLUME_ROOT}/widget:/usr/share/nginx/html/widget
 
