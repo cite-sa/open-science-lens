@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Testing Site</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<div class="myContainer">
+		<h1 class="myH1">Testing Site</h1>
+		<button id="myButton" class="myButton">Please click me</button>
+
+		<h2 class="myH2">Doi</h2>
+		<div class="myDiv">10.5281/zenodo.3378103</div>
+		<div class="myDiv">10.5281/zenodo.3378102</div>
+		<div class="myDiv">10.5281/zenodo.3378109</div>
+		<div class="myDiv">
+			<a href='/none'>10.5281/zenodo.33781024</a>
+		</div>
+		<div class="myDiv">
+			<a href="www.yeahBaby.mine/10.5281/zenodo.3378102">Yeah Baby</a>
+		</div>
+
+
+
+
+		<h2>Markup</h2>
+		<div class="myDiv">
+			<span osl-publication="title" osl-value="RedBridge" osl-hidden="true">This is a Publication</span>
+		</div>
+		<div class="myDiv">
+			<span osl-publication="title">RedBridge</span>
+		</div>
+		<div class="myDiv">
+			<span osl-publication="author" osl-value="Ioannidis">This is a Publication made by "Ioannidis"</span>
+		</div>
+		<div class="myDiv">
+			<span osl-identifier="doi" osl-value="10.1045/november14-giannakopoulos">This is a doi!</span>
+		</div>
+		<div class="myDiv">
+			<span osl-identifier="doi">10.1045/november14-giannakopoulos</span>
+		</div>
+		<div class="myDiv">
+			<span osl-dataset="title">RedBridge</span>
+		</div>
+	</div>
+
+
+	<div>
+		<div id="oslUserId">blablabla</div>
+		<div id="oslUserName">Mr. Bla</div>
+	</div>
+
+	<div>
+		<osl-widget osl-api-key="68a553c7-0b43-4d7b-b72e-3216a75809a6" osl-configuration="https://my-json-server.typicode.com/eioannidis/myFakeSettings/db" settings-general-scanning="onPageLoad">
+		</osl-widget>
+		<script type="text/javascript" src="https://dev03.vhosts.cite.gr:50073/osl/widget/open-science-lens-widget.js"></script>
+	</div>
+</body>
+
+<script src="C:\Users\eioannidis\CITE\Testing Site\main.js"></script>
+
+</html>

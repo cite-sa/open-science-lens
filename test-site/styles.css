@@ -1,0 +1,33 @@
+.myButton {
+    color: #3498db;
+    border: 2px solid rgb(112, 0, 146);
+    border-radius: 40px;
+    background-color: white;
+}
+
+.myButton:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #3498db;
+}
+
+.myButton:focus,
+.myButton:active {
+    outline: none;
+}
+
+.myContainer {
+    text-align: center;
+}
+
+.myDiv {
+    padding: 3px 0px;
+}
+
+.myH1 {
+    color: #3498db;
+}
+
+.myH2 {
+    color: rgb(112, 0, 146);
+}
