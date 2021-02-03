@@ -72,7 +72,7 @@ When adding a new registration you have certain fields to fill out:
 	* Project
 	* Other
 
-After saving the request is pending and you have to wait for it to be approved by an administrator. Even before being approved you can download the settings you have selected as a JSON file or even copy the API key you will be using.  
+After saving, the request is pending and you have to wait for it to be approved by an administrator. Even before being approved you can download the settings you have selected as a JSON file or even copy the API key you will be using.  
 <img src="./images-webapp/scientific-page-single-pending.PNG" width="70%" height="50%">  
 After being approved you can also edit the details you have input or ask for a new API key.  
 <img src="./images-webapp/scientific-page-single.PNG" width="50%" height="50%">
