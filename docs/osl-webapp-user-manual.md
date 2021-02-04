@@ -35,10 +35,10 @@ By clicking on "Add Registration" you can make a new Scientific Page.
 When adding a new registration you have certain fields to fill out:  
 <img src="./images-webapp/scientific-page-add-registration-original.PNG" width="40%" height="50%">
 
-* Domain (has to be a certain type ex: https://www.madgik.di.uoa.gr):
+* Domain (has to be a certain type ex: https://www.madgik.di.uoa.gr):  
 <img src="./images-webapp/scientific-page-add-registration-domain.PNG" width="40%" height="50%">
 
-* Email (has to be a certain type ex: thisisafakeemail@fake.fake):
+* Email (has to be a certain type ex: thisisafakeemail@fake.fake):  
 <img src="./images-webapp/scientific-page-add-registration-email.PNG" width="40%" height="50%">
 
 * Settings:

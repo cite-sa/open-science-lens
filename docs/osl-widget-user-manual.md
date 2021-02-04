@@ -51,7 +51,7 @@ There are also markups results that when opened present a list of search results
 ## DOI and Badges:
 
 Similarly by clicking on a badge next to the DOI you want, you'll see the general information that is available to you through OpenAIRE and further more you can click on the sliders to access the value of that information.  
-<img src="./images-widget/single-doi-badge-select.PNG" width="40%" height="50%">
+<img src="./images-widget/single-doi-badge-select.PNG" width="55%" height="50%">
 <img src="./images-widget/single-doi-badge-info.PNG" width="40%" height="50%">
 
 Similarly there are also markup results that when opened present a list of search results.  

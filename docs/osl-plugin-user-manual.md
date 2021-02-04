@@ -5,14 +5,14 @@
 * After you have downloaded the plugin:
   * click on the extension button in the top right corner of your Chrome browser.  
 <img src="./images-plugin/extension-button.PNG" width="10%" height="50%">  
-  * Then click on the pin next to the pluginto place it next to your search bar.  
+  * Then click on the pin to make it visible, next to your search bar.  
 <img src="./images-plugin/extension-list.PNG" width="40%" height="50%">
 
 ## Plugin Settings:
 
 By clicking the gear on the top right of the side panel you will be lead to the settings page.  
 <img src="./images-plugin/settings-select.PNG" width="40%" height="50%">
-<img src="./images-plugin/settings-menu.PNG" width="20%" height="50%">
+<img src="./images-plugin/settings-menu.PNG" width="18%" height="50%">
 
 By clicking the desired category a list will open with the available settings. There are two types of settings: "general" and "other" with "other" being a filter mechanism for each type of doi.
 
