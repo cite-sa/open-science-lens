@@ -58,7 +58,7 @@ Each of them controls what is shown for each type. (example shown is for Dataset
 
 Clicking the "Login" button will open a new tab with the Open Science Lens WebApp for the user to log in. Once logged in it will show the user's name.
 
-<img src="./images-plugin/login.PNG" width="30%" height="50%">
+<img src="./images-plugin/login.PNG" width="20%" height="50%">
 <img src="./images-plugin/login-successful.PNG" width="40%" height="50%">  
 <img src="./images-plugin/login-successful-name.PNG" width="60%" height="50%">
 
