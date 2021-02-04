@@ -23,8 +23,10 @@ Clear can be done by clicking on the "Clear" button and can be used to clean the
 Highlight a certain word or phrase and click on the option "Search Highlighted". It will:
 *  search the OpenAIRE website:  
 <img src="./images-widget/highlight-button.PNG" width="40%" height="50%">
+
 *  return the top results of that search:    
 <img src="./images-widget/highlight-results.PNG" width="40%" height="50%">
+
 *  you can also clear the list:    
 <img src="./images-widget/highlight-clear.PNG" width="40%" height="50%">
 

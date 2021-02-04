@@ -4,7 +4,8 @@
 
 * After you have downloaded the plugin:
   * click on the extension button in the top right corner of your Chrome browser.  
-<img src="./images-plugin/extension-button.PNG" width="10%" height="50%">  
+<img src="./images-plugin/extension-button.PNG" width="10%" height="50%">
+
   * Then click on the pin to make it visible, next to your search bar.  
 <img src="./images-plugin/extension-list.PNG" width="40%" height="50%">
 
@@ -34,6 +35,7 @@ There are three available types of settings: Language, AutoScan and Show Badge.
 	Show badge is a settings that allows a user to access the desirable DOI only through the list on the side panel. That way there is no externeal infulence on the website.
   * On  
 	<img src="./images-plugin/scan-badge-on.PNG" width="40%" height="50%">
+
   * Off  
 	<img src="./images-plugin/scan-badge-off.PNG" width="40%" height="50%">
 
@@ -64,7 +66,8 @@ Clicking the "Login" button will open a new tab with the Open Science Lens WebAp
 
 There are multiple ways to scan (manually, automatically or on page load) resulting in:
 * a list in the side panel  
-<img src="./images-plugin/scanned.PNG" width="60%" height="50%">  
+<img src="./images-plugin/scanned.PNG" width="60%" height="50%">
+
 * possible badges on the website.  
 <img src="./images-plugin/scanned-badges.PNG" width="60%" height="50%">
 

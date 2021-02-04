@@ -24,6 +24,7 @@ Logging in can be done two ways:
 There is also a search function on the top of the list:
 * Search by text  
 <img src="./images-webapp/scientific-page-search.PNG" width="40%" height="50%">
+
 * Search by status  
 <img src="./images-webapp/scientific-page-status.PNG" width="40%" height="50%">
 
