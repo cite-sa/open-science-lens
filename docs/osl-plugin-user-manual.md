@@ -106,4 +106,4 @@ Similarly by clicking on a badge next to the DOI you want, you'll see the genera
 ## Widget Blocker:
 
 If there is both a plugin installed and activated and a widget in a website, depending on the widget settings, the widget might not allow the plugin to scan.  
-<!-- <img src="./images-plugin/widget-blocker.PNG" width="40%" height="50%"> -->
+<img src="./images-plugin/widget-blocker.PNG" width="40%" height="50%">
