@@ -4,10 +4,10 @@
 
 * After you have downloaded the plugin:
   * click on the extension button in the top right corner of your Chrome browser.  
-<img src="images-plugin/extension-button.PNG" width="10%" height="50%">
+<img src="./images-plugin/extension-button.PNG" width="10%" height="50%"/>
 
   * Then click on the pin to make it visible, next to your search bar.  
-<img src="images-plugin/extension-list.PNG" width="40%" height="50%">
+<img src="./images-plugin/extension-list.PNG" width="40%" height="50%"/>
 
 ## Plugin Settings:
 
