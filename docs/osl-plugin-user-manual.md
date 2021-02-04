@@ -49,18 +49,18 @@ There are five available types of settings:
 * Project
 * Other
 
-Each of them controls what is shown for each type. (example shown is for Dataset)
+Each of them controls what is shown for each type. (example shown is for Publication)
 
-<img src="./images-plugin/settings-publication.PNG" width="20%" height="50%">
+<img src="./images-plugin/settings-publication.PNG" width="40%" height="50%">
 <img src="./images-plugin/scan-publication-filter.PNG" width="35%" height="50%">
 
 ## Login
 
 Clicking the "Login" button will open a new tab with the Open Science Lens WebApp for the user to log in. Once logged in it will show the user's name.
 
-<img src="./images-plugin/login.PNG" width="20%" height="50%">
+<img src="./images-plugin/login.PNG" width="40%" height="50%">
 <img src="./images-plugin/login-successful.PNG" width="40%" height="50%">  
-<img src="./images-plugin/login-successful-name.PNG" width="60%" height="50%">
+<img src="./images-plugin/login-successful-name.PNG" width="40%" height="50%">
 
 ## Scanning:
 
