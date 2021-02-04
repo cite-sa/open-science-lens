@@ -2,7 +2,7 @@
 
 ## Login:
 
-<img src="./images-webapp/login.PNG" width="40%" height="50%">
+<img src="./images-webapp/login.PNG" width="30%" height="50%">
 <img src="./images-webapp/original.PNG" width="40%" height="50%">
 
 ## Scientific Pages:
@@ -29,10 +29,10 @@ There is also a search function on the top of the list:
 
 ## New Registration
 
-By clicking on "Add Registration" you can make a new Scientific Page.
+By clicking on "Add Registration" you can make a new Scientific Page.  
 <img src="./images-webapp/scientific-page-add-registration.PNG" width="60%" height="50%">
 
-When adding a new registration you have certain fields to fill out:
+When adding a new registration you have certain fields to fill out:  
 <img src="./images-webapp/scientific-page-add-registration-original.PNG" width="40%" height="50%">
 
 * Domain (has to be a certain type ex: https://www.madgik.di.uoa.gr):
@@ -42,8 +42,8 @@ When adding a new registration you have certain fields to fill out:
 <img src="./images-webapp/scientific-page-add-registration-email.PNG" width="40%" height="50%">
 
 * Settings:
-  * General:
-<img src="./images-webapp/scientific-page-add-registration-settings-general.PNG" width="100%" height="50%">
+  * General:  
+<img src="./images-webapp/scientific-page-add-registration-settings-general.PNG" width="70%" height="50%">
 
 	* Language (Dropdown)
 	* Button Color (Dropdown)
@@ -65,7 +65,7 @@ When adding a new registration you have certain fields to fill out:
 
   * Others:  
 	The rest of the settings are checkboxes controlling what to show for each different type of result. You can access these settings by clicking on the buttons to the left.  
-	<img src="./images-webapp/scientific-page-add-registration-settings-general-others.PNG" width="70%" height="50%">
+	<img src="./images-webapp/scientific-page-add-registration-settings-general-others.PNG" width="70%" height="50%">  
     * Dataset
 	* Publication
 	* Software
@@ -75,5 +75,5 @@ When adding a new registration you have certain fields to fill out:
 After saving, the request is pending and you have to wait for it to be approved by an administrator. Even before being approved you can download the settings you have selected as a JSON file or even copy the API key you will be using.  
 <img src="./images-webapp/scientific-page-single-pending.PNG" width="70%" height="50%">  
 After being approved you can also edit the details you have input or ask for a new API key.  
-<img src="./images-webapp/scientific-page-single.PNG" width="50%" height="50%">
-<img src="./images-webapp/scientific-page-single-edit.PNG" width="40%" height="50%">
+<img src="./images-webapp/scientific-page-single.PNG" width="60%" height="50%">
+<img src="./images-webapp/scientific-page-single-edit.PNG" width="60%" height="50%">

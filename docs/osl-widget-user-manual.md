@@ -1,75 +1,58 @@
-# Open Science Lens Browser Widget User Manual (OSL Widget User Manual)
+# Open Science Lens Browser Widget User Manual
 
-## List of OSL functions:
+## Widget Operation:
 
-### Scanning the DOM:
-
-There are multiple ways to scan the DOM (manually, automatically or on pane load), all of witch have the effect of going from the 1st image to the 2nd.
-
-<img src="./images-widget/original.PNG" width="40%" height="50%">
-<img src="./images-widget/scanned.PNG" width="40%" height="50%">
-
-### Clearing the DOM:
-
-Clearing the DOM can be done by clicking on the "Clear" button and has the effect of going from the 1st image to the 2nd.
-
-<img src="./images-widget/scanned.PNG" width="40%" height="50%">
+To open the widget, click on the "Open Science Lens" button.  
 <img src="./images-widget/original.PNG" width="40%" height="50%">
 
-### Highlight and search OpenAIRE:
+## Scanning:
 
-Highlight a certain word or phrase and click on the option "Search Highlighted". It will search the "explore.openaire.eu" website and return the top results of that search.
+There are multiple ways to scan (manually, automatically or on pane load) resulting in:
+* a list in the popup.  
+<img src="./images-widget/scanned.PNG" width="40%" height="50%">
+* possible badges on the website.  
+<img src="./images-widget/scanned-badges.PNG" width="40%" height="50%">
 
-<img src="./images-widget/highlight1.PNG" width="40%" height="50%">
-<img src="./images-widget/highlight2.PNG" width="40%" height="50%">
+## Clearing:
 
-### Visit OpenAIRE:
+Clear can be done by clicking on the "Clear" button and can be used to clean the popup and the website from all the available information if the user doesn't want to see it.  
+<img src="./images-widget/clear.PNG" width="40%" height="50%">
 
-In the popup panel to the right by clicking the button "Visit OpenAIRE" it will open a new tab and take you to the "www.openaire.eu" website.
+## Highlight and search OpenAIRE:
 
+Highlight a certain word or phrase and click on the option "Search Highlighted". It will:
+*  search the OpenAIRE website:  
+<img src="./images-widget/highlight-button.PNG" width="40%" height="50%">
+*  return the top results of that search:    
+<img src="./images-widget/highlight-results.PNG" width="40%" height="50%">
+*  you can also clear the list:    
+<img src="./images-widget/highlight-clear.PNG" width="40%" height="50%">
+
+## Visit OpenAIRE:
+
+In the popup by clicking the button "Visit OpenAIRE" it will open a new tab and take you to the OpenAIRE website.  
 <img src="./images-widget/visit-openaire.PNG" width="40%" height="50%">
-<img src="./images-widget/visit-openaire2.PNG" width="40%" height="50%">
 
-### Visit Open Science Lens Github repository:
+## Visit Open Science Lens Github repository:
 
-In the popup panel to the right by clicking the button "Embed Open Science Lens to your page" it will open a new tab and take you to the "github.com/cite-sa/open-science-lens" website where you will find information about the Open Science Lens Widget.
-
+In the popup by clicking the button "Embed Open Science Lens to your page" it will open a new tab and take you to the Github repository where you will find information about the Open Science Lens Widget.  
 <img src="./images-widget/visit-github.PNG" width="40%" height="50%">
-<img src="./images-widget/visit-github2.PNG" width="40%" height="50%">
 
-### Read description:
+## DOI in popup:
 
-In the popup panel to the right by clicking the button "How Open Science Lens Works" it will change the view and take you to a brief summary about Open Science Lens.
+By clicking on the DOI in the popup you see the general information that is available to you through OpenAIRE and further more you can click on the sliders to access the value of that information.  
+<img src="./images-widget/single-doi-select.PNG" width="40%" height="50%">
+<img src="./images-widget/single-doi-info.PNG" width="30%" height="50%">
 
-<img src="./images-widget/description.PNG" width="40%" height="50%">
-<img src="./images-widget/description2.PNG" width="40%" height="50%">
+There are also markups results that when opened present a list of search results.  
+<img src="./images-widget/single-markup-list-select.PNG" width="50%" height="50%">
+<img src="./images-widget/single-markup-list-info.PNG" width="30%" height="50%">
 
-### DOI in popup panel:
+## DOI and Badges:
 
-By clicking on the DOI in the popup panel you see the general information that is available to you through OpenAIRE and further more you can click on the sliders to access the value of that information.
+Similarly by clicking on a badge next to the DOI you want, you'll see the general information that is available to you through OpenAIRE and further more you can click on the sliders to access the value of that information.  
+<img src="./images-widget/single-doi-badge-select.PNG" width="40%" height="50%">
+<img src="./images-widget/single-doi-badge-info.PNG" width="40%" height="50%">
 
-<img src="./images-widget/scanned.PNG" width="40%" height="50%">
-<img src="./images-widget/single-doi.PNG" width="40%" height="50%">
-<img src="./images-widget/single-doi2.PNG" width="40%" height="50%">
-<img src="./images-widget/single-doi3.PNG" width="40%" height="50%">
-
-There are also markups results that when opened present a list of search results.
-
-<img src="./images-widget/scanned.PNG" width="40%" height="50%">
-<img src="./images-widget/single-markup.PNG" width="40%" height="50%">
-<img src="./images-widget/single-markup2.PNG" width="40%" height="50%">
-<img src="./images-widget/single-markup3.PNG" width="40%" height="50%">
-
-### DOI in the DOM:
-
-Similarly by clicking on the DOI badge on the DOM you see the general information that is available to you through OpenAIRE and further more you can click on the sliders to access the value of that information.
-
-<img src="./images-widget/scanned.PNG" width="40%" height="50%">
-<img src="./images-widget/single-doi-badge.PNG" width="40%" height="50%">
-<img src="./images-widget/single-doi-badge2.PNG" width="40%" height="50%">
-
-Similarly there are also markup results that when opened present a list of search results.
-
-<img src="./images-widget/single-markup-badge.PNG" width="40%" height="50%">
-<img src="./images-widget/single-markup-badge2.PNG" width="40%" height="50%">
-<img src="./images-widget/single-markup-badge3.PNG" width="40%" height="50%">
+Similarly there are also markup results that when opened present a list of search results.  
+<img src="./images-widget/single-markup-badge-list.PNG" width="40%" height="50%">
